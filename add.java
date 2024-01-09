@@ -9,7 +9,6 @@ public class add {
         int a=sc.nextInt();
         System.out.println("Enter second number:");
         int b=sc.nextInt();
-        int c=a+b;
-        System.out.println("Addition Result = "+c);
+        System.out.println("Addition Result = "+Integer.valueOf(a+b));
     }
 }
